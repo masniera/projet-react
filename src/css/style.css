@@ -1,0 +1,74 @@
+#root {
+    background-color: rgb(225, 225, 225);
+}
+.recette {
+    text-align: center;
+    width : 15%;
+    min-width: 300px;
+    border-radius:15px;
+    margin:1vh 1vh 1vh 1vh ;
+    border:solid;
+    border-color: rgb(222, 94, 62);
+}
+
+img {
+    max-width: 90%;
+    max-height: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#barre_de_recherche {
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#page {
+    text-align: center;
+}
+
+#titlePage {
+    color: rgb(222, 94, 62);
+}
+
+#inputName{
+    border-radius: 7px;
+    height: 30px;
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#inputMessage{
+    border-radius: 7px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.inputSubmit{
+    border-radius: 7px;
+    height: 30px;
+    font-size: 20px;
+    width: 20%;
+    margin-top: 10px;
+}
+
+.blocked {
+    background-color: red;
+}
+
+#minCharac {
+    color: red;
+}
+
+.article {
+    text-align: left;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
